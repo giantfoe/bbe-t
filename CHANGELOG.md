@@ -32,6 +32,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Git repository initialization and GitHub setup
+- Project pushed to GitHub repository: https://github.com/giantfoe/bbe-t
+
 ### Changed
 - Updated .vercelignore file to exclude .next directory and other large files/directories to prevent deployment size limit errors
 - **Vercel Deployment Configuration**: Updated `vercel.json` to use `npm install --legacy-peer-deps` as the install command to resolve peer dependency conflicts during deployment
