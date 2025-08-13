@@ -1,0 +1,15 @@
+node_modules
+build
+dist
+.git
+.trae
+.log
+.next
+.vercel
+coverage
+*.tsbuildinfo
+.DS_Store
+.env*.local
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
