@@ -1,5 +1,2 @@
-// This file is for @convex-dev/auth integration
-// For Clerk integration with Convex, we use auth.config.js instead
-// This file can be removed or kept minimal
-
-export { getAuthUserId } from "@convex-dev/auth/server";
+// This project uses Clerk for authentication with Convex via auth.config.js.
+// This file remains intentionally empty because we are not using @convex-dev/auth APIs.

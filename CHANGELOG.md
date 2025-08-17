@@ -40,6 +40,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated .vercelignore file to exclude .next directory and other large files/directories to prevent deployment size limit errors
 - **Vercel Deployment Configuration**: Updated `vercel.json` to use `npm install --legacy-peer-deps` as the install command to resolve peer dependency conflicts during deployment
 - Added install script to `package.json` with `--legacy-peer-deps` flag for consistent dependency resolution across environments
+- Removed `@convex-dev/auth` dependency due to peer dependency conflict with `@auth/core@0.40.0`; project uses Clerk + Convex integration via `auth.config.js` instead
+- Updated `convex/schema.ts` to remove `authTables` import/spread from `@convex-dev/auth/server`
+- Cleaned up `convex/auth.ts` (no longer re-exporting from `@convex-dev/auth/server`)
 
 ### Fixed
 - Fixed React error "Objects are not valid as a React child" when artwork dimensions are undefined by adding proper null checking in artwork details page

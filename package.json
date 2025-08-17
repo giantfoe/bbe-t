@@ -14,7 +14,6 @@
   "dependencies": {
     "@auth/core": "^0.40.0",
     "@clerk/nextjs": "^6.30.1",
-    "@convex-dev/auth": "^0.0.73",
     "@hookform/resolvers": "^3.9.1",
     "@stripe/stripe-js": "^4.10.0",
     "@types/node": "^22.10.5",
