@@ -1,0 +1,14 @@
+# Netlify redirects for Next.js App Router
+# Handle client-side routing for single page application
+
+# Redirect all routes to index.html with 200 status (SPA fallback)
+/*    /index.html   200
+
+# API routes should be handled by Next.js API
+/api/*  /api/:splat  200
+
+# Static assets should be served directly
+/_next/*  /_next/:splat  200
+/favicon.ico  /favicon.ico  200
+/robots.txt  /robots.txt  200
+/sitemap.xml  /sitemap.xml  200

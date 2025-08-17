@@ -171,3 +171,12 @@ Without this JWT template, authentication will fail with "No JWT template exists
 - Route protection implemented via Clerk middleware
 - Maintained existing UI design while replacing authentication components
 - All authentication flows (login, signup, logout) now use Clerk's optimized components
+
+## [2024-12-20]
+
+### Added
+- Netlify configuration for static hosting support: created `netlify.json` with install command and SPA rewrite
+- Added `_redirects` file to support SPA fallback routing on Netlify and ensure Next.js client-side routes work on refresh
+
+### Notes
+- For Next.js on Netlify, dynamic routes, API routes, and SSR require the Netlify Next.js adapter which is auto-applied during builds; the `_redirects` rule `/* /index.html 200` ensures SPA behavior for purely static exports
