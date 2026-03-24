@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "check": "npm run lint && npm run type-check",
-    "type-check": "tsc --noEmit",
-    "install": "npm install --legacy-peer-deps"
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@auth/core": "^0.40.0",
