@@ -57,7 +57,7 @@ export default function ArtistProfilePage() {
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-gray-900 mb-2">Artist Not Found</h1>
-          <p className="text-gray-600 mb-4">The artist you're looking for doesn't exist.</p>
+          <p className="text-gray-600 mb-4">The artist you&apos;re looking for doesn&apos;t exist.</p>
           <Link href="/marketplace" className="text-blue-600 hover:text-blue-700">
             Browse Marketplace
           </Link>

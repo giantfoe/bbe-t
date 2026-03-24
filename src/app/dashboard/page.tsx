@@ -57,6 +57,12 @@ export default function DashboardPage() {
     convexUserId ? { userId: convexUserId } : "skip"
   );
   
+  // Fetch artist profile data for artist dashboard (must be before any conditional returns)
+  const artistProfile = useQuery(
+    api.users.getArtistProfile,
+    convexUserId ? { artistId: convexUserId } : "skip"
+  );
+  
   // Create current user object from Clerk user data
   const currentUser = user ? {
     _id: user.id,
@@ -235,12 +241,6 @@ export default function DashboardPage() {
         </div>
       </div>
     </div>
-  );
-
-  // Fetch artist profile data for artist dashboard
-  const artistProfile = useQuery(
-    api.users.getArtistProfile,
-    convexUserId ? { artistId: convexUserId } : "skip"
   );
 
   const ArtistDashboard = () => (

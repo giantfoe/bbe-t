@@ -150,8 +150,8 @@ export default function AboutPage() {
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Connecting Artists with the World
             </h1>
-            <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
-              We're building the future of art commerce, where creativity meets opportunity and passion finds its perfect match.
+              <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
+              We&apos;re building the future of art commerce, where creativity meets opportunity and passion finds its perfect match.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/marketplace">
@@ -266,7 +266,7 @@ export default function AboutPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              We're a passionate team of art lovers, technologists, and business professionals working together to transform the art world.
+              We&apos;re a passionate team of art lovers, technologists, and business professionals working together to transform the art world.
             </p>
           </div>
           
@@ -342,7 +342,7 @@ export default function AboutPage() {
                   We started with a vision to create a digital space where art could transcend geographical boundaries and where artists could build sustainable careers doing what they love. What began as a small marketplace has grown into a global community of over 10,000 artists and countless art lovers.
                 </p>
                 <p>
-                  Today, we're proud to have facilitated over 50,000 art sales, helping artists earn a living from their passion while bringing beautiful, authentic artwork into homes and spaces around the world.
+                  Today, we&apos;re proud to have facilitated over 50,000 art sales, helping artists earn a living from their passion while bringing beautiful, authentic artwork into homes and spaces around the world.
                 </p>
                 <p>
                   Our journey is just beginning. We continue to innovate and expand our platform, always with our core mission in mind: empowering artists and making art accessible to everyone.
@@ -358,7 +358,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Join Our Community</h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Whether you're an artist looking to showcase your work or an art lover seeking your next favorite piece, we'd love to have you join our growing community.
+            Whether you&apos;re an artist looking to showcase your work or an art lover seeking your next favorite piece, we&apos;d love to have you join our growing community.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/upload">
